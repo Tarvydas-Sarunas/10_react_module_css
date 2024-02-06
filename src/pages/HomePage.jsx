@@ -1,12 +1,13 @@
 import React from 'react'
+import Card from '../components/ai/Card'
 
 export default function HomePage() {
 
 
   return (
-    <div>
+    <div className='container'>
       <h1>Home Page</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem fugiat in, placeat illum eos dicta quae ab ipsum fugit nobis.</p>
+      <Card name={'This is card name'}/>
       <button className='btn'>Read more</button>
       </div>
   )
