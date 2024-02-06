@@ -4,7 +4,7 @@ import css from './Header.module.css'
 
 export default function Header() {
   return (
-    <header className={`${css.header} ${css.flexHeader}`}>
+    <header className={`${css.header} ${css.flexHeader} container`}>
       <Link to={'/'}>
       <h2 className={css.logo}>Logo</h2>
       </Link>
