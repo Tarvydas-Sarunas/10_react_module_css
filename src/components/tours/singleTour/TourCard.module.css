@@ -1,0 +1,15 @@
+.card {
+  background-color: white;
+  color: black;
+  text-align: left;
+}
+.textContainer {
+  padding: 15px;
+}
+.textContainer h3,
+.textContainer p {
+  padding-bottom: 10px;
+}
+.date {
+  color: gray;
+}

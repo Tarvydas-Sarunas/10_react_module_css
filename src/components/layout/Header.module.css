@@ -1,0 +1,26 @@
+.header {
+  background-color: #333;
+  color: white;
+}
+.logo {
+  padding: 10px;
+}
+.flexHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.navLink {
+  font-size: 20px;
+  height: 100%;
+}
+.navLink:hover {
+  background-color: tomato;
+  padding: 10px;
+}
